@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   build:
-    runs-on: [self-hosted, Linux, X64, test]
+    runs-on: ubuntu-latest
 
     strategy:
       matrix:
